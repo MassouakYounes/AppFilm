@@ -1,0 +1,15 @@
+.custom-dialog-content {
+  text-align: center;
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px; /* Ajustez la marge en fonction de vos besoins */
+}
+
+img {
+  max-width: 60%; /* Assurez-vous que l'image ne dépasse pas la largeur du conteneur */
+  max-height: 60%; /* Assurez-vous que l'image ne dépasse pas la hauteur du conteneur */
+}

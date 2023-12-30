@@ -1,0 +1,25 @@
+/* app.component.css */
+
+nav {
+  background-color: #282c34; /* Couleur de fond */
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+}
+
+nav a {
+  color: white; /* Couleur du texte */
+  text-decoration: none;
+  margin: 0 20px;
+  font-size: 18px; /* Taille du texte */
+  font-weight: bold;
+  transition: color 0.3s ease; /* Transition de couleur au survol */
+}
+
+nav a:hover {
+  color: #61dafb; /* Couleur du texte au survol */
+}
+
+nav a.active {
+  color: #61dafb; /* Couleur du texte pour le lien actif */
+}

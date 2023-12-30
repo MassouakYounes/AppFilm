@@ -1,0 +1,14 @@
+<!-- film-details-dialog.component.html -->
+
+
+<div class="custom-dialog-content">
+  <h2 mat-dialog-title >{{ data.title }}</h2>
+  <div class="image-container">
+    <img src="../../assets/layout/images/imgs.png" alt="{{ data.title }}">
+    <p>{{ data.overview }}</p>
+    <!-- Ajoutez d'autres détails du film ici -->
+  </div>
+</div>
+<mat-dialog-actions>
+  <button mat-button (click)="onCloseClick()">Fermer</button>
+</mat-dialog-actions>

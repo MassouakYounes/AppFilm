@@ -1,0 +1,17 @@
+/* film-details.component.css */
+
+.film-details {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.film-card {
+  max-width: 600px;
+}
+
+img {
+  max-height: 300px;
+  object-fit: cover;
+}

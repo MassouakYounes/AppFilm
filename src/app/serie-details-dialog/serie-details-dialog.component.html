@@ -1,0 +1,13 @@
+<h2 mat-dialog-title>{{ data.original_name }}</h2>
+<mat-dialog-content>
+  <p mat-card-subtitle> Première date de sortie: {{ data.first_air_date | date: 'mediumDate' }}</p>
+  <p mat-card-subtitle> nombre de saisons: {{ data.number_of_seasons }}</p>
+  <p mat-card-subtitle> nombre des épisodes: {{ data.number_of_episodes }}</p>
+
+  <p>{{ data.overview }}</p>
+  <!-- Ajoutez d'autres détails du film ici -->
+</mat-dialog-content>
+
+<mat-dialog-actions>
+  <button mat-button (click)="onCloseClick()">Fermer</button>
+</mat-dialog-actions>

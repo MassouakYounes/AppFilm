@@ -1,0 +1,15 @@
+/* film-list.component.css */
+
+.film-list {
+  padding: 20px;
+}
+
+mat-card {
+  max-width: 400px;
+  margin: 16px;
+}
+
+img {
+  max-height: 200px;
+  object-fit: cover;
+}
